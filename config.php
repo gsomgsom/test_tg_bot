@@ -1,0 +1,2 @@
+<?php
+define('TELEGRAM_BOT_TOKEN', '962141783:AAE21nBA1rwoOmrpFH4ZV3WPOGidAg5el1c');
