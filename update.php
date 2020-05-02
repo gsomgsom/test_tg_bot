@@ -13,5 +13,5 @@ $chat_id = $telegram->ChatID();
 // Check if the text is a command
 if (!is_null($text) && !is_null($chat_id)) {
 	$reply = 'Привет ;-)';
-	$telegram->sendMessage($content);
+	$telegram->sendMessage($reply);
 }
