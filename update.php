@@ -12,7 +12,7 @@ $chat_id = $telegram->ChatID();
 
 // Check if the text is a command
 if (!is_null($text) && !is_null($chat_id)) {
-	$content = ['chat_id' => $chatId,
+	$content = ['chat_id' => $chat_id,
 		'reply_markup' => $telegram->buildKeyBoardHide(),
 		'text' => 'Привет ;-)'
 	];
